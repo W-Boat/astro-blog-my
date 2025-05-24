@@ -102,3 +102,21 @@ article.heti blockquote p {
 body {
     font-family: 'Noto Serif SC', 'Source Han Serif SC', '思源宋体', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
 }
+
+/* 更具体地应用到文章内容区域及其内部元素 */
+/* .heti 是你的文章内容容器的类 */
+.heti,
+.heti p,
+.heti h1,
+.heti h2,
+.heti h3,
+.heti h4,
+.heti h5,
+.heti h6,
+.heti li, /* 列表项 */
+.heti blockquote, /* 引用块 */
+.heti span, /* 防止span等元素被单独设置字体 */
+.heti div /* 防止div等容器被单独设置字体 */
+{
+    font-family: 'Noto Serif SC', 'Source Han Serif SC', '思源宋体', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+}
