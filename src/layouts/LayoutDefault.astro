@@ -29,13 +29,13 @@ const image =
   }))
 const optimizedImage = new URL(image?.src??"/placeholder.png", Astro.url).toString()
 ---
+
+<html lang="en">
+  <head>
     {/* Google Fonts - Noto Serif SC (思源宋体) */}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
-
-<html lang="en">
-  <head>
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <SEO
